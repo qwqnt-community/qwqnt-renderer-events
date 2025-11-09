@@ -31,5 +31,5 @@ jobs:
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: qwqnt-renderer_events.zip
+          files: qwqnt-renderer-events.zip
           body_path: ./changeLog.md
