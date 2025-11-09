@@ -1,4 +1,4 @@
-# QwQNT-RendererEvents
+# qwqnt-renderer-events
 
 本插件是 QwQNT 框架下，用于为 Renderer 提供一系列事件的插件。
 
@@ -60,8 +60,8 @@ declare namespace RendererEvents {
 ```
     MIT License
 
-    QwQNT-RendererEvents
-    Copyright (C) 2025  Adpro
+    qwqnt-renderer-events
+    Copyright (C) 2025  風間青祢
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal

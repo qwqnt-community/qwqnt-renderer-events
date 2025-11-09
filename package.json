@@ -1,6 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/QwQ-002/types/main/plugin.schema.json",
-  "name": "qwqnt-renderer_events",
+  "$schema": "https://raw.githubusercontent.com/qwqnt-community/types/main/plugin.schema.json",
+  "name": "qwqnt-renderer-events",
   "version": "1.1.2",
   "description": "To provide QwQNT plugins some renderer events.",
   "type": "commonjs",
@@ -14,22 +14,22 @@
   "devDependencies": {
     "@electron-toolkit/eslint-config-ts": "^3.1.0",
     "@electron-toolkit/tsconfig": "^2.0.0",
-    "@eslint/js": "^9.36.0",
-    "@qwqnt/types": "github:QwQ-002/types",
-    "@types/node": "^24.5.2",
-    "@typescript-eslint/eslint-plugin": "^8.44.1",
-    "@typescript-eslint/parser": "^8.44.1",
-    "electron": "^38.1.2",
+    "@eslint/js": "^9.39.1",
+    "@qwqnt/types": "github:qwqnt-community/types",
+    "@types/node": "^24.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.3",
+    "@typescript-eslint/parser": "^8.46.3",
+    "electron": "^39.1.1",
     "electron-vite": "^4.0.1",
-    "eslint": "^9.36.0",
-    "jiti": "^2.6.0",
-    "typescript-eslint": "^8.44.1",
+    "eslint": "^9.39.1",
+    "jiti": "^2.6.1",
+    "typescript-eslint": "^8.46.3",
     "unplugin-zip-pack": "^1.0.3",
-    "vite": "^7.1.7",
-    "vite-plugin-checker": "^0.10.3",
+    "vite": "^7.2.2",
+    "vite-plugin-checker": "^0.11.0",
     "vite-plugin-cp": "^6.0.3"
   },
-  "packageManager": "pnpm@10.17.1",
+  "packageManager": "pnpm@10.20.0",
   "qwqnt": {
     "name": "Renderer 事件",
     "inject": {
@@ -37,7 +37,7 @@
       "preload": "./preload/index.js"
     },
     "dependencies": {
-      "ipc_interceptor": "^1.0.0"
+      "qwqnt-ipc-interceptor": "^1.2.0"
     }
   }
 }
